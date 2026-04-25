@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/warp.conf"
+  to = "/.netlify/functions/generate"
+  status = 200
